@@ -10,6 +10,11 @@ root.mainloop()
 
 # ============================================================================
 
+from tkinter import *
+
+# craete a window
+root = Tk()
+root.geometry("500x500")
 # <<<<Label>>>>
 # How to create a label in the window
 
@@ -23,7 +28,7 @@ my_label.grid(column=0, row=0)
     # create the label with (Text, font, backgroud, forground), and make a link with the window
 my_label = Label(root, text = "Enter your name", font = ("Arial", 30), bg = "red", fg = "black", width=20, height=5)
     # Put this label in the window
-my_label.pack()
+my_label.pack(side=BOTTOM)
 
 # Note: We cannot use gird with pack
 # How to change the content of the label later? 
@@ -33,6 +38,8 @@ my_label.configure(text="Changes")
 a = 1
 b = 2
 my_label.configure(text='a = {}, b = {}'.format(a, b))
+
+root.mainloop()
 # ============================================================================
 
 # <<<<Inputs>>>>
