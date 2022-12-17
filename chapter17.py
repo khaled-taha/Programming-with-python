@@ -158,4 +158,5 @@ root.mainloop()
 # other points:
 # 1 - Menu bars
 # 2 - update the window
+# 3 - StringVar
 
