@@ -117,6 +117,7 @@ r2.pack()
 textbox = Text(font=('Verdana', 16), height=6, width=40)
 
 # or you can do the follwing: 
+from tkinter.scrolledtext import ScrolledText
 textbox = ScrolledText()
 """
 textbox.get(1.0,END):  returns the contents of the text box
