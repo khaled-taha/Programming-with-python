@@ -116,6 +116,8 @@ r2.pack()
 # Create a textbox
 textbox = Text(font=('Verdana', 16), height=6, width=40)
 
+# or you can do the follwing: 
+textbox = ScrolledText()
 """
 textbox.get(1.0,END):  returns the contents of the text box
 textbox.delete(1.0,END): deletes everything in the text box
