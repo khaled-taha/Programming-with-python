@@ -94,3 +94,11 @@ freq = []
 for i in range(1, 101):
     freq.append(L.count(i))
 
+# sort on the second character of each word in the last
+words = ["aa", "ab", "ac", "ba", "cb", "ca"]
+def select_second_character(word):
+        return word[1]
+
+words = sorted(words, key=select_second_character)
+
+print(words)
