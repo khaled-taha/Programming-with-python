@@ -49,7 +49,7 @@ root.mainloop()
 my_input = Entry()
         # 2 - put it in the Window
 my_input.grid(column=0, row=1)
-        # 3 - During Rinning, you can get the input from Entry by get() method as a (((String value)))
+        # 3 - During Running, you can get the input from Entry by get() method as a (((String value)))
 String_val = my_input.get()
 num_val = eval(String_val)
 
